@@ -3,7 +3,7 @@ import { generateGen, checkNeighbors, calcNextGen } from './utils.js'
 import { GG } from './types.js'
 
 r.SetTraceLogLevel(r.LOG_NONE)
-r.InitWindow(GG.screen.w, GG.screen.h, "The GG of Life")
+r.InitWindow(GG.screen.w, GG.screen.h, "The GG Life")
 r.SetTargetFPS(60)
 
 GG.curr_gen = generateGen(GG.curr_gen)
