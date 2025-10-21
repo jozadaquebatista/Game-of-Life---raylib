@@ -1,0 +1,9 @@
+{
+    "type": "module",
+    "dependencies": {
+        "raylib": "*"
+    },
+    "scripts": {
+        "start": "node src/game.js"
+    }
+}
